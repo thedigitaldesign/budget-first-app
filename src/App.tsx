@@ -1,8 +1,11 @@
 import React from 'react'
 
+// Styles
+import './assets/theme/scss/app.core.scss'
+
 function App() {
   return (
-    <div>
+    <div className={`page-wrapper`}>
       
     </div>
   );

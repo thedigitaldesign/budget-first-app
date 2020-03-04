@@ -54,7 +54,7 @@
 /* app error page */
 @import '_modules/_page-error';
 /* various app components (see docs for the full list) */
-@import '_modules/_page-components-*';
+// @import '_modules/_page-components-*';
 
 /* #MISC - misc styles, helpers, effects and hacks
 ========================================================================== */ 
@@ -82,20 +82,20 @@
 
 /* #DEMO ELEMS - elements mostly used for demo (can be removed)
 ========================================================================== */ 
-@import '_modules/_settings-*';
+// @import '_modules/_settings-*';
 @import '_modules/_demo-only';
 
 /* #_extensions - Components imported in alphabetical order (remove extensions from directory if not needed)
 ========================================================================== */ 
-@import '_extensions/_extension-*.scss';
+// @import '_extensions/_extension-*.scss';
 
 /* #ANIMATION - CSS animations and keyframes
 ========================================================================== */ 
-@import '_modules/_keyframes-*';
+// @import '_modules/_keyframes-*';
 
 /* #MODS - Layout manipulation
 ========================================================================== */ 
-@import '_modules/_mod-*.scss';
+// @import '_modules/_mod-*.scss';
 
 /* #COLORS - we place this here so it can override other colors as needed
 ========================================================================== */ 
@@ -103,7 +103,7 @@
 
 /* #APP related modules (print, fullscreen, etc)
 ========================================================================== */ 
-@import '_modules/_app-*';
+// @import '_modules/_app-*';
 
 /* #OVERRIDE - You can override any of the variables through this file
 ========================================================================== */ 
