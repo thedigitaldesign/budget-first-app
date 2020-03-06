@@ -1,12 +1,15 @@
 import React from 'react'
 
 // Styles
-import './assets/theme/scss/app.core.scss'
+import 'bulma'
 
 function App() {
   return (
-    <div className={`page-wrapper`}>
-      
+    <div className={`container`}>
+      <aside className="columns">
+        <div className="column">column 1</div>
+        <div className="column">column 2</div>
+      </aside>
     </div>
   );
 }

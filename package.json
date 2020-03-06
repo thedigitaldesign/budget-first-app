@@ -10,6 +10,7 @@
     "apollo-boost": "^0.4.7",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "bulma": "^0.8.0",
     "graphql": "^14.6.0",
     "init": "^0.1.2",
     "node-sass": "^4.13.1",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,6 +54,8 @@
     "@storybook/addon-links": "^5.3.14",
     "@storybook/addon-notes": "^5.3.14",
     "@storybook/addons": "^5.3.14",
+    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/react": "^5.3.14",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "jest-cli": "^25.1.0",
