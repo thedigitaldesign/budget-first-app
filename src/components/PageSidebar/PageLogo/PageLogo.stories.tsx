@@ -4,12 +4,12 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 
 // Component
-import PageHeader from './PageHeader'
+import PageLogo from './PageLogo'
 
-storiesOf('Components/PageHeader', module).add('Page Header', () => {
+storiesOf('Components/PageLogo', module).add('Page Logo', () => {
   return (
     <div>
-      <PageHeader />
+      <PageLogo />
     </div>
   )
 })
