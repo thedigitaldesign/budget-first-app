@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
-export default class Delete extends Component {
+export default class Income extends Component {
   render() {
     return (
-      <></>
+      <>
+        
+      </>
     )
   }
 }
