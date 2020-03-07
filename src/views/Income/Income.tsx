@@ -4,7 +4,7 @@ export default class Income extends Component {
   render() {
     return (
       <>
-        
+        <h1>Income</h1>
       </>
     )
   }
