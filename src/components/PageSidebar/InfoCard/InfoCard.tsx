@@ -8,7 +8,7 @@ export default class InfoCard extends Component {
     return (
       <div className="info-card">
         <div className="info-card-text">
-          
+          Info Card
         </div>
       </div>
     )

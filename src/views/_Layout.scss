@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  display: block;
+}
+
+#root {
+  height: 100%;
+}
+
+.page-container {
+  background-color: #f8f8f8;
+  color: #333;
+  width: 100%;
+  height: 100%;
+  display: table;
+  table-layout: fixed;
+
+  .sidebar-menu {
+    background-color: #303641;
+    color: #fff;
+    display: table-cell;
+    width: 20rem;
+    max-width: 20rem;
+  }
+
+  .main-content {
+    display: table-cell;
+  }
+}

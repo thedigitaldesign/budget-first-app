@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+// Styles
+import 'bulma'
+
 // Routes
 import Routes from './utils/routes/Routes'
 
