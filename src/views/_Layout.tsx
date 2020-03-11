@@ -10,11 +10,13 @@ export default class _Layout extends Component {
   render() {
     return (
       <div className="page-container">
-        <aside className="sidebar-menu">
-          <PageSidebar />
-        </aside>
+        <div className="columns full-height no-margin">
+          <aside className="sidebar-menu column is-2">
+            <PageSidebar />
+          </aside>
 
-        <main className="main-content">{this.props.children}</main>
+          <main className="main-content column">{this.props.children}</main>
+        </div>
       </div>
     )
   }

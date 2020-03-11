@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 // Styles
 import 'bulma'
+import './assets/scss/general.scss'
 
 // Routes
 import Routes from './utils/routes/Routes'
