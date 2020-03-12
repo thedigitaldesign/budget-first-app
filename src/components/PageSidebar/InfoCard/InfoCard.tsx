@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 
-// Styles
-import './InfoCard.scss'
-
 export default class InfoCard extends Component {
   render() {
     return (

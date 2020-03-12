@@ -2,13 +2,40 @@
 	"version": 4,
 	"lists": [
 		{
-			"title": "Application Intel",
+			"title": "Dashboard",
 			"icon": "fal fa-info-circle",
 			"items": [
 				{
-					"title": "Analytics Dashboard",
-					"showOnSeed": false,
-					"href": "intel_analytics_dashboard.html"
+					"title": "Dashboard",
+					"href": "dashboard"
+				}
+			]
+		},
+		{
+			"title": "Schedule",
+			"icon": "fal fa-info-circle",
+			"items": [
+				{
+					"title": "Calendar",
+					"href": "calendar"
+				}
+			]
+		},
+		{
+			"title": "Income and Expense",
+			"icon": "fal fa-info-circle",
+			"items": [
+				{
+					"title": "Entries",
+					"href": "entries"
+				},
+				{
+					"title": "Expense",
+					"href": "expense"
+				},
+				{
+					"title": "Income",
+					"href": "income"
 				}
 			]
     }
