@@ -1,6 +1,5 @@
 {
-	"version": 4,
-	"lists": [
+	"nav": [
 		{
 			"title": "Dashboard",
 			"icon": "fal fa-info-circle",
@@ -12,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Schedule",
+			"title": "Calendar",
 			"icon": "fal fa-info-circle",
 			"items": [
 				{
