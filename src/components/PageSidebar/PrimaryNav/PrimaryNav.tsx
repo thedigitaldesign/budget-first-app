@@ -4,19 +4,16 @@ import React, { Component } from 'react'
 import axios from 'axios'
 
 export default class PrimaryNav extends Component {
+  componentDidMount() {
+    axios.get('./nav.json').then(response => {
+      response.data.nav
+    })
+  }
+
   render() {
-    let nav
-
-    axios.get('./nav.json')
-      .then(response => {
-        nav = response.data.nav
-      })
-
-    console.log()
-
     return (
       <nav className="primary-nav">
-        
+        <div></div>
       </nav>
     )
   }

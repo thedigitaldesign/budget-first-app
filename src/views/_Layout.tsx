@@ -11,11 +11,11 @@ export default class _Layout extends Component {
     return (
       <div className="page-container">
         <div className="columns full-height is-marginless">
-          
-            <PageSidebar />
-          
+          <PageSidebar />
 
-          <main className="main-content column">{this.props.children}</main>
+          <main className="main-content column">
+            {this.props.children}
+          </main>
         </div>
       </div>
     )
