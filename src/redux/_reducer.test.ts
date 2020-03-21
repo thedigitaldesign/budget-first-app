@@ -2,7 +2,7 @@
 import {  } from 'enzyme'
 
 // Reducers
-import * as reducers from './reducers'
+import * as reducers from './reducer'
 
 describe('Reducers', () => {
   

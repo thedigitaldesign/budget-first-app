@@ -11,7 +11,7 @@ import PrimaryNav from './PrimaryNav/PrimaryNav'
 export default class PageSidebar extends Component {
   render() {
     return (
-      <aside className="sidebar-menu column is-2 is-hidden-mobile">
+      <aside className="sidebar-menu column is-hidden-mobile">
         <PageLogo />
         <InfoCard />
         <PrimaryNav />

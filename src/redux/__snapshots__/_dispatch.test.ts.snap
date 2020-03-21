@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dispatch should contain data for \`nav\` 1`] = `
+Object {
+  "FETCH_NAV_FAILURE": "FETCH_NAV_FAILURE",
+  "FETCH_NAV_REQUEST": "FETCH_NAV_REQUEST",
+  "FETCH_NAV_SUCCESS": "FETCH_NAV_SUCCESS",
+}
+`;
