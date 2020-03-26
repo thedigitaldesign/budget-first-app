@@ -2,9 +2,9 @@
 import {} from 'enzyme'
 
 // Reducers
-import PageSidebar from './nav.action'
+import nav from './action'
 
-describe('PageSidebar', () => {
+describe('Nav Action', () => {
   // it('should `FETCH_NAV_REQUEST`', () => {
   //   expect()
   // })

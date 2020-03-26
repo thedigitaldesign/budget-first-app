@@ -9,22 +9,18 @@ import Routes from './utils/routes/Routes'
 
 // Packages
 import { BrowserRouter } from 'react-router-dom'
-import { createStore, combineReducers } from 'redux'
 import { Provider } from 'react-redux'
 
 // Views
 import Layout from './views/_Layout'
 
-// Reducers
-import { RootReducer } from './redux/reducer'
-
-const reducers = combineReducers(RootReducer)
-const store = createStore(reducers)
+// Store
+import { Store } from './redux/Store'
 
 export default class App extends Component {
   render() {
     return (
-      <Provider store={store}>
+      <Provider store={Store}>
         <BrowserRouter>
           <Layout>
             <Routes />

@@ -1,4 +1,4 @@
-export interface Nav {
+export interface PrimaryNav {
   title: string
   icon?: string
   items: [
