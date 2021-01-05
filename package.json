@@ -11,7 +11,7 @@
     "@types/redux-logger": "^3.0.7",
     "@types/redux-thunk": "^2.1.0",
     "apollo-boost": "^0.4.7",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bulma": "^0.8.0",
     "graphql": "^14.6.0",
     "init": "^0.1.2",
